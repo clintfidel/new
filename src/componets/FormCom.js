@@ -181,7 +181,7 @@ const FormCom = ({active}) => {
       
        <section className="form-section">
         <div className="question-content">
-        <p className="section-question">How would you rate this project?</p>
+        <p className="section-question">Which of these is correct about this project?</p>
           <div className="rate">
             <div class="custom-select">
               <textarea name='foo'   style={{width:'550px', padding: '15px 15px'}} cols="30" rows="6" resize="none" placeholder="Give Us a feedback"></textarea>
@@ -193,7 +193,7 @@ const FormCom = ({active}) => {
       
        <section className="form-section shot-section">
         <div className="question-content">
-        <p className="section-question">upload file for this project</p>
+        <p className="section-question">Upload file for this project</p>
           <div className="rate">
             <div class="upload-layout">
               <div className='upload-btn'>
@@ -209,7 +209,7 @@ const FormCom = ({active}) => {
       
        <section className="form-section shot-section">
         <div className="question-content">
-        <p className="section-question">upload file for this project</p>
+        <p className="section-question">Select file for this project</p>
           <div className="rate">
             <div class="upload-layout  long">
               <div className='upload-btn'>
@@ -226,8 +226,8 @@ const FormCom = ({active}) => {
           </div> 
         </div>
       </section>
-      
         <Link  className='link' style={{textDecoration: 'none', color: '#ffffff', fontSize: '16px'}} to="/Survey">Submit</Link>
+      
       
       
     </form>

@@ -105,7 +105,7 @@
 }
 
 i.fa-star, i.fa-star-half-alt {
-  margin-left: 20px;
+  margin-right: 20px;
   color: #E4AA24;
   cursor: pointer;
   /* font-size: 25px; */
@@ -135,7 +135,7 @@ i.plain {
 }
 
 .rating {
-  margin-left: 5px;
+  margin-left: 0px;
   object-fit: contain;
   display: flex;
   justify-content: space-between;
@@ -267,6 +267,7 @@ textarea[name=foo] {
   width: 70px;
   cursor: pointer;
   outline: none;
+  font-weight: 500;
 }
 
 .color-placeholder::placeholder {
@@ -284,8 +285,7 @@ i.fa-image {
 }
 
 .link, .home-link {
-  margin: 40px 60px;
-  margin-left: 280px;
+  margin: 40px 29%;
   width: 80px;
   background-color: #cca354;
   border-radius: 20px;
