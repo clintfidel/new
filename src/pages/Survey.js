@@ -15,7 +15,7 @@ const Survey = () => {
           <p>Federal Housing Authority</p>
         </div>
       </div>
-      <section className="form-section collapse">
+      <section className="form-section  survey-signature">
         <div className="header-div"></div>
        
           <p  className="header-desc">300,000 Affordable Housing Units</p>
